@@ -1,0 +1,65 @@
+.primary-overlay {
+  background: rgba(30, 2, 39, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.section-about img {
+  height: 375px;
+}
+
+.header-main {
+  background: url(../img/back1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 780px;
+  color: #fff;
+}
+.header-main-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+.header-main .showcase {
+  padding-top: 100px;
+}
+.tabs .indicator {
+  background-color: #d847f1 !important;
+}
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+.header-main .side-nav i {
+  padding-right: 30px;
+}
+.section-skills .card-panel {
+  height: 430px !important;
+  text-overflow: clip;
+}
+
+.section .section-testimonial {
+  background: url("img/back2.jpg");
+  background-position: center;
+  position: absolute;
+  min-height: 200px;
+}
+
+.section-blogs blockquote {
+  text-align: justify;
+  padding: auto;
+}
+
+@media (max-width: 500px) {
+  .section-deveplers,
+  .section-podcast,
+  .primary-overlay {
+    min-height: 300px;
+  }
+}
